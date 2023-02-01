@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles-main.css">
+    
+    <title>SERENATIX</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <a href="#!" class="home-link">
+                <img src="./img/logo-with-text-small.svg" alt="logo">
+            </a>
+            <div class="header-menu">
+                <a href="#!">Account</a>
+                |
+                <a href="#!">Generate</a>
+                |
+                <a href="#!">Contact Us</a>
+            </div>
+        </header>
+
+        <main class="main">
+            <p class="generate-desc">
+                Lorem ipsum dolor sit amet. Qui expedita fugit cum quidem esse et atque quis sed praesentium perferendis ut deserunt quae. Qui minus rerum eum adipisci harum et quia sunt ut consequatur molestiae ex enim incidunt ut rerum quis eum enim odit.Et veritatis sint et facilis odio est nihil vero qui architecto rerum est itaque pariatur ex excepturi provident.Et veritatis sint et facilis odio est nihil vero qui architecto rerum est itaque pariatur ex excepturi provident. Et eligendi animi aut sunt eveniet et ullam quae eos repellendus assumenda aut molestiae dolores. Lorem ipsum dolor sit amet. Qui expedita fugit cum quidem esse et atque quis sed praesentium perferendis ut deserunt quae. Qui minus rerum eum adipisci harum et quia sunt ut consequatur molestiae ex enim incidunt ut rerum quis eum enim odit.
+            </p>
+
+            <div class="generate-tabs">
+                <form class="generate-form">
+                    <table>
+                        <tr>
+                            <td>Relationship type</td>
+                            <td>
+                                <div class="select">
+                                    <button type="button" class="select_header" readonly="true">
+                                        <div class="select_current">Combo Box</div>
+                                        <img src="./img/icon/stroke.svg" alt="pass-icon" class="input-icon">
+                                    </button>
+                                    
+                                    <ol class="select_list">
+                                        <li class="select_item" data-value="1">Value 1</li>
+                                        <li class="select_item" data-value="2">Value 2</li>
+                                        <li class="select_item" data-value="3">Value 3</li>
+                                        <li class="select_item" data-value="4">Value 4</li>
+                                    </ol>
+                                    <input type="text" name="relationship-type" value="" class="select_input-hidden">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Partner name</td>
+                            <td>
+                                <div class="input_wrap">
+                                    <input type="text" class="generate-input" placeholder="Enter your Partner Name">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Number of children</td>
+                            <td>
+                                <div class="input_wrap number-input">
+                                    <input type="text" class="generate-input" value="0" style="opacity: 0.5;">
+                                    <div class="input-icons">
+                                        <img src="./img/icon/stroke.svg" class="plus">
+                                        <img src="./img/icon/stroke.svg" class="minus">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Relationship start date</td>
+                            <td>
+                                <div class="input_wrap">
+                                    <!-- <input type="date" class="generate-input" placeholder="Combo Box" > -->
+                                    <input type="text" class="generate-input" placeholder="Combo Box" onfocus="(this.type='date')" onblur="(this.type='date')" style="width: 100%;">
+                                    <img src="./img/icon/calendar.svg" alt="pass-icon" class="input-icon dont-event">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Occasion</td>
+                            <td>
+                                <div class="select">
+                                    <button type="button" class="select_header" readonly="true">
+                                        <div class="select_current">Combo Box</div>
+                                        <img src="./img/icon/stroke.svg" alt="pass-icon" class="input-icon">
+                                    </button>
+
+
+        
+                                    <ol class="select_list">
+                                        <li class="select_item" data-value="1">Value 1</li>
+                                        <li class="select_item" data-value="2">Value 2</li>
+                                        <li class="select_item" data-value="3">Value 3</li>
+                                        <li class="select_item" data-value="4">Value 4</li>
+                                    </ol>
+                                    <input type="text" name="relationship-type" value="" class="select_input-hidden">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Style <span>*</span></td>
+                            <td>
+                                <div class="select">
+                                    <button type="button" class="select_header" readonly="true">
+                                        <div class="select_current">Combo Box</div>
+                                        <img src="./img/icon/stroke.svg" alt="pass-icon" class="input-icon">
+                                    </button>
+                                    
+                                    <ol class="select_list">
+                                        <li class="select_item" data-value="1">Value 1</li>
+                                        <li class="select_item" data-value="2">Value 2</li>
+                                        <li class="select_item" data-value="3">Value 3</li>
+                                        <li class="select_item" data-value="4">Value 4</li>
+                                    </ol>
+                                    <input type="text" name="relationship-type" value="" class="select_input-hidden">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="buttons">
+                        <button type="submit" class="magenta-btn">Generate a Love Note</button>
+                        <button type="submit" class="blue-btn">Generate a Poem</button>
+                        <button type="submit" class="purple-btn">Generate a Love Letter</button>
+                    </div>
+                </form>
+
+                <div class="generate-tab">
+                    <div class="credits-info">
+                        <div class="heart heart-adaptive">
+                            <img src="./img/heart.svg">
+                            <p class="count-credits">
+                                15
+                            </p>
+                            <p class="count-credits_desc">
+                                total Credits 
+                            </p>
+                        </div>
+                        <div class="referal">
+                            <p class="credits-info_title">
+                                Refer and earn credits
+                            </p>
+                            <p class="referal-desc">
+                                Send credits to friends and create magical love content for each friend who joins
+                            </p>
+                            <button class="referal-copy blue-btn">
+                                Copy referral link
+                            </button>
+                        </div>
+                        <div class="heart big-heart">
+                            <img src="./img/heart.svg">
+                            <p class="count-credits">
+                                15
+                            </p>
+                            <p class="count-credits_desc">
+                                total Credits 
+                            </p>
+                        </div>
+                        <div class="credits-buy">
+                            <p class="credits-info_title">
+                                Let’s Buy more 50 credits only for <span>$1.99</span>
+                            </p>
+                            <a href="#!" class="">
+                                <div class="purple-btn">
+                                    Buy Credits
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="archive">
+                        <h2 class="archive-title">
+                            Archive
+                        </h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        <div>
+                                            Name
+                                            <div class="table-sorting">
+                                                <a href="#!">
+                                                    <img src="./img/icon/stroke-small.svg">
+                                                </a>
+                                                <a href="#!">
+                                                    <img src="./img/icon/stroke-small.svg">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            Type
+                                            <div class="table-sorting">
+                                                <a href="#!">
+                                                    <img src="./img/icon/stroke-small.svg">
+                                                </a>
+                                                <a href="#!">
+                                                    <img src="./img/icon/stroke-small.svg">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            Date
+                                            <div class="table-sorting">
+                                                <a href="#!">
+                                                    <img src="./img/icon/stroke-small.svg">
+                                                </a>
+                                                <a href="#!">
+                                                    <img src="./img/icon/stroke-small.svg">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Draft Letter 1</td>
+                                    <td>Letter</td>
+                                    <td>25 December, 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>Draft Letter 1</td>
+                                    <td>Letter</td>
+                                    <td>25 December, 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>Draft Letter 1</td>
+                                    <td>Letter</td>
+                                    <td>25 December, 2022</td>
+                                </tr>
+                                <tr>
+                                    <td>Draft Letter 1</td>
+                                    <td>Letter</td>
+                                    <td>25 December, 2022</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="./js/number.js"></script>
+<script src="./js/select.js"></script>
+</html>
